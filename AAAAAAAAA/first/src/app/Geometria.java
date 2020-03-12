@@ -23,21 +23,7 @@ public class Geometria{
             System.out.println(lista.get(i).getClass().toString());
             System.out.println("Área: " + lista.get(i).calcularArea());
             System.out.println("Perímetro: " + lista.get(i).calcularPerimetro() + "\n");
-            //System.out.println("Diametro: " + lista.get(i).calcularDiagonal() + "\n");
-        }
-
-        /*ArrayList<Figura> lista2 = new ArrayList<Figura>();
-        Retangulo r2 = new Retangulo(4, 5);
-        lista.add(r2);
-        Triangulo t2 = new Triangulo(3, 3);
-        lista.add(t2);
-        for (int i = 0; i < lista.size(); i++) {
-            System.out.println(lista.get(i).getClass().toString());
-            System.out.println("Área: " + lista.get(i).calcularArea());
-            System.out.println("Perímetro: " + lista.get(i).calcularPerimetro() + "\n");
-            System.out.println("Diametro: " + lista.get(i).calcularDiagonal() + "\n");
-        }*/
-
+           
         ArrayList<Poligono3D> lista3 = new ArrayList<Poligono3D>();
         Cilindro cilindro = new Cilindro(4, 8, 4, 8);
         lista3.add(cilindro);
